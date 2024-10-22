@@ -1,2 +1,2 @@
-# new
+# POO C++
 code en cpp
