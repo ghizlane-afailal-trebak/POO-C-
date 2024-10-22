@@ -1,2 +1,2 @@
-# POO C++
+# PROGRAMATION ORIENTEE OBJET EN C++
 code en cpp
