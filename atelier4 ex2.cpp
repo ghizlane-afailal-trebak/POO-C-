@@ -20,8 +20,9 @@ public:
     Zebra(const string &n, int a) : Animal(n, a) {}
 
     void display_info() override {
-        cout << "Zebra: " << name << ", Age: " << age << " years old." << endl;
-        cout << "Origin: Africa." << endl;
+        cout << "Zebra: " << name << endl;
+        cout << " Age: " << age << cout <<  " ans." << endl;
+        cout << "Origin de Africa." << endl;
     }
 };
 
@@ -30,18 +31,19 @@ public:
     Dolphin(const string &n, int a) : Animal(n, a) {}
 
     void display_info() override {
-        cout << "Dolphin: " << name << ", Age: " << age << " years old." << endl;
-        cout << "Origin: Oceans worldwide." << endl;
+        cout << "Dolphin: " << name << endl;
+        cout <<  "Age: " << age << "ans." << endl;
+        cout << "Origin de Oceans worldwide." << endl;
     }
 };
 
 int main() {
     // Création d'une instance de Zebra
-    Zebra zebra1("Zara", 5);
+    Zebra zebra1("ZEBRA", 10);
     zebra1.display_info();
 
     // Création d'une instance de Dolphin
-    Dolphin dolphin1("Dolly", 8);
+    Dolphin dolphin1("DolPHIN", 11);
     dolphin1.display_info();
 
     return 0;
